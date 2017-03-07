@@ -1,1 +1,5 @@
-{{yield}}
+<ul>
+  {{#each books as |book|}}
+  <li>{{ book.title }}</li>
+  {{/each}}
+</ul>
