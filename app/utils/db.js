@@ -3,9 +3,9 @@ import Ember from 'ember';
 export default Ember.Object.create({
 
   _records: [
-    { title: "El Aleph" },
-    { title: "2666" },
-    { title: "The Black Swan" }
+    { title: "The Real Keith Hulu: An Autobigraphy" },
+    { title: "Carousels Are Dumb: Volume I" },
+    { title: "The Merge Conflict from Hell" }
   ],
 
   books() {
