@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'reading-list',
     environment: environment,
-    rootURL: '/',
+    rootURL: '/emberigniter-reading-list',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -43,7 +43,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.rootURL = '/emberigniter-reading-list';
+    ENV.locationType = 'hash';
+    // ENV.apiHost = '<% replace with the URL to your deployed API %>';
   }
 
   return ENV;
